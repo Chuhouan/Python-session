@@ -9,6 +9,7 @@ import "./m6.js";
 import "./m7.js";
 import "./m8.js";
 import "./m9.js";
+import "./m10.js";
 import { registerModule } from "../router.js";
 
 registerModule({ id: "m1", title: "1 · 起步", titleEn: "Getting Started", lessons: ["m1a", "m1b"] });
@@ -20,3 +21,4 @@ registerModule({ id: "m6", title: "6 · 循环", titleEn: "Loops", lessons: ["m6
 registerModule({ id: "m7", title: "7 · 列表", titleEn: "Lists", lessons: ["m7a", "m7b", "m7c"] });
 registerModule({ id: "m8", title: "8 · 字典", titleEn: "Dictionaries", lessons: ["m8a", "m8b", "m8c"] });
 registerModule({ id: "m9", title: "9 · 函数", titleEn: "Functions", lessons: ["m9a", "m9b", "m9c"] });
+registerModule({ id: "m10", title: "10 · 面向对象", titleEn: "Object-Oriented", lessons: ["m10a", "m10b", "m10c", "m10d"] });
