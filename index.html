@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light">
+  <title>Python 零基础 · 第一阶段</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar">
+      <header class="brand">
+        <div class="brand-title">Python 零基础</div>
+        <div class="brand-sub">阶段一 · 基础语法</div>
+      </header>
+      <nav id="mod-tree" class="mod-tree" aria-label="课程目录"></nav>
+      <footer class="sidebar-foot">
+        <div class="progress">
+          <div class="progress-label"><span id="prog-pct">0%</span> 已掌握</div>
+          <div class="progress-track"><div id="prog-bar" class="progress-bar"></div></div>
+          <div class="progress-meta" id="prog-meta"></div>
+        </div>
+        <div class="sidebar-actions">
+          <button class="btn btn-ghost" id="btn-review">待复习 <span id="review-count">0</span></button>
+          <button class="btn btn-ghost" id="btn-settings">设置</button>
+          <button class="btn btn-ghost" id="btn-export">导出进度</button>
+          <button class="btn btn-ghost" id="btn-import">导入进度</button>
+        </div>
+      </footer>
+    </aside>
+    <main id="main">
+      <div id="content" class="content"></div>
+    </main>
+  </div>
+  <div id="modal-root"></div>
+  <div id="toast-root"></div>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
